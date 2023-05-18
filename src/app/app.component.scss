@@ -1,0 +1,32 @@
+$btn-color: #007db0;
+$text-color: #000;
+$h2-colour: #1f1f1f;
+
+.btn.btn-primary {
+  background-color: $btn-color;
+  color: $text-color;
+  border: none;
+  margin: 0 0.3rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: $h2-colour;
+  }
+
+  .color-picker-form {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,38 @@
+$bg-colour: #FFF;
+$display-colour: #555;
+$display-text-colour: #000;
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: $bg-colour;
+  max-width: 400px;
+  min-width: 200px;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.display {
+  background-color: $display-colour;
+  width: 100%;
+  font-size: 3rem;
+  border-radius: 2px;
+  color: $display-text-colour;
+}
+
+.btn-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+  button {
+    height: 20%;
+    width: 20%;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+}

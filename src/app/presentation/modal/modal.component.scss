@@ -1,0 +1,22 @@
+$bg-colour: #007db0;
+$text-colour: #FFF;
+
+.modal-container {
+  margin: 10vmin;
+  background-color: $bg-colour;
+  border-radius: 5px;
+  padding: 2%;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: $text-colour;
+  box-shadow: 10px;
+  min-height: fit-content; // should never cut off behind calculator
+  min-width: fit-content;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 10px auto;
+}
+
+simple-calculator {
+  margin: 10px;
+}

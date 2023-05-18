@@ -1,0 +1,23 @@
+<div class="btn-container">
+  <button class="btn btn-primary" (click)="openModal()">Open Calculator</button>
+  <button class="btn btn-primary" (click)="closeModal()">
+    Close Calculator
+  </button>
+</div>
+
+<div class="row" #modal></div>
+
+<div class="color-picker-container">
+  <h2>Pick a background colour:</h2>
+  <form class="color-picker-form">
+    <input
+      type="color"
+      name="colorPicker"
+      class="form-control"
+      [(ngModel)]="colour"
+    />
+    <button for="colorPicker" (click)="setColour()" class="btn btn-success">
+      Submit
+    </button>
+  </form>
+</div>
